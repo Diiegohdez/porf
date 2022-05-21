@@ -1,0 +1,31 @@
+#tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.Header{
+    width: 100%;
+    height: 90vh;
+}
+
+.HeaderLeft{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+}
+
+.HeaderLeft h4{
+    font-size: 38px;
+}
+
+.HeaderLeft span{
+    width: 300px;
+    font-size: 25px;
+}

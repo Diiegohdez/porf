@@ -1,0 +1,97 @@
+.Navbar{
+    width: 100%;
+    height: 60px;
+    color: white;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.NavbarLeft{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.nav-menu {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-right: 110px;
+    
+    
+}
+
+.Navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.Navbar li{
+    list-style: none;
+} 
+
+
+.nav-icon {
+    display: none;
+}
+
+
+@media screen and (max-width: 960px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      border-top: 1 px solid white;
+      position: absolute;
+      top: 40px;
+      left: -110%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+
+
+    .nav-menu.active {
+        background: black;
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        
+      }
+
+      .nav-item .active {
+        color: #ffdd40;
+        border: none;
+      }
+      .nav-links {
+        padding: 1.2 vrem;
+        width: 100%;
+        display: table;
+      }
+    
+      .nav-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: white;
+
+    }
+     
+    .NavbarLeft{
+        margin-left: -90px;
+    }
+
+}
+
