@@ -30,3 +30,10 @@
     font-size: 25px;
 }
 
+.HearderRight{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    margin-left: 690px;
+    margin-top: -300px
+}

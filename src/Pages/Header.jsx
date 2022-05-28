@@ -4,6 +4,7 @@ import { loadFull } from "tsparticles";
 import "./header.css"
 import { Typewriter } from 'react-simple-typewriter'
 import particlesOptions from './particles.json'
+import SliderF from '../Components/Slider/Slider';
 
 
 function Header() {
@@ -36,6 +37,7 @@ function Header() {
                  eveniet magni qui quod.</span>
         </div>
         <div className="HearderRight">
+            <SliderF/>
             
         </div>
     </div>
