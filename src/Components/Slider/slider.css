@@ -4,3 +4,10 @@
     
     
 }
+
+@media screen and (max-width:960px) {
+    .Slider{
+        width: 40%;
+        height: 50px;
+    }
+}
